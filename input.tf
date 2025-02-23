@@ -5,3 +5,7 @@ variable "gcp_billing_account_id" {
 variable "gcp_org_id" {
   type = string
 }
+
+variable "terraform_admin_gcp_project_id" {
+  type = string
+}
