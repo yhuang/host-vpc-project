@@ -1,4 +1,4 @@
-output "shared_host_vpc_project_id" {
+output "project_id" {
   value = local.shared_host_vpc_project_id
 }
 
