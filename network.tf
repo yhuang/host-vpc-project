@@ -1,4 +1,4 @@
-resource "google_compute_shared_vpc_host_project" "shared_host_project" {
+resource "google_compute_shared_vpc_host_project" "shared_host_vpc" {
     project = local.host_vpc_project_id
 }
 
