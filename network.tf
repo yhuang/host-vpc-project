@@ -5,6 +5,8 @@ resource "google_compute_shared_vpc_host_project" "shared_host_vpc" {
 resource "google_compute_network" "shared_host_vpc" {
   project = local.shared_host_vpc_project_id
   name    = "shared-host-network"
+  
+  auto_create_subnetworks = false
 }
 
 resource "google_compute_subnetwork" "shared_us_west1" {
