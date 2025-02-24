@@ -1,2 +1,1 @@
-# service-project
-# service-project
+# host-vpc-project
