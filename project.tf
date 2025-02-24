@@ -5,4 +5,8 @@ module "host_vpc_project" {
   random_project_id    = true
   folder_id            = local.gcp_folder_id
   billing_account      = local.gcp_billing_account_id
+
+  activate_apis = [
+    "compute.googleapis.com",
+  ]
 }
